@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f9f9f9"
+    tools:context=".activiies.TestTwoActivity">
+
+    <TextView
+        android:id="@+id/txt_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Offers"
+        android:textAlignment="center"
+        android:textColor="#4a4a4a"
+        android:textSize="28sp"
+        android:textStyle="normal" />
+
+    <View
+        android:id="@+id/top_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/txt_heading"
+        android:background="#e8e8e8" />
+
+    <RelativeLayout
+        android:id="@+id/rl_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_heading"
+        android:background="@drawable/background_decor_icons">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/text_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="315dp"/>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/text_view_pager"
+            app:tabBackground="@drawable/tab_selector"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_pager_bottom_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/rl_view_pager"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:background="#e8e8e8" />
+
+    <TextView
+        android:id="@+id/txt_offer_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_view_pager"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="38dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="@string/add_three_apps"
+        android:textAlignment="center"
+        android:textColor="#4a4a4a"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txt_add_apps"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="160dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/txt_offer_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/add_app_btn_back"
+        android:text="Add APPS"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="*User can earn a maximum of 1 scratch card for this offer."
+        android:textColor="#4a4a4a"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+</RelativeLayout>
