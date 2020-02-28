@@ -1,0 +1,51 @@
+[
+  {
+    "id": "air_1",
+    "airtime": "5000 sec",
+    "data": "500 MB",
+    "same_net": "12%",
+    "other_net": "88%"
+  },
+  {
+    "id": "air_2",
+    "airtime": "32000 sec",
+    "data": "600 MB",
+    "same_net": "34%",
+    "other_net": "66%"
+  },
+  {
+    "id": "air_3",
+    "airtime": "20000 sec",
+    "data": "950 MB",
+    "same_net": "21%",
+    "other_net": "79%"
+  },
+  {
+    "id": "air_4",
+    "airtime": "79000 sec",
+    "data": "1 GB",
+    "same_net": "55%",
+    "other_net": "45%"
+  },
+  {
+    "id": "air_5",
+    "airtime": "69000 sec",
+    "data": "860 MB",
+    "same_net": "10%",
+    "other_net": "90%"
+  },
+  {
+    "id": "air_6",
+    "airtime": "90000 sec",
+    "data": "860 MB",
+    "same_net": "5%",
+    "other_net": "95%"
+  },
+  {
+    "id": "air_6",
+    "airtime": "29000 sec",
+    "data": "560 MB",
+    "same_net": "35%",
+    "other_net": "65%"
+  }
+]
